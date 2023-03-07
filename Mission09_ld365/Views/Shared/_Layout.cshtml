@@ -6,12 +6,14 @@
     <title>@ViewBag.Title</title>
     <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
 </head>
-<body>
+@*I changed the body class to change the background color of the entire website*@
+<body class="bg-light">
     <div class="bg-dark text-white p-2">
         <span class="navbar-brand ml-2">SHAMAZON</span>
     </div>
     <div class="row m-1 p-1">
         <div id="categories" class="col-3">
+            <vc:category></vc:category>
         </div>
         <div class="col-9">
 
