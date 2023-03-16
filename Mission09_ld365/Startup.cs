@@ -36,6 +36,8 @@ namespace Mission09_ld365
 
             services.AddScoped<IBookstoreRepository, EFBookstoreRepository>();
 
+            services.AddScoped<ITransactionRepository, EFTransactionRepository>();
+
             services.AddRazorPages();
 
             services.AddDistributedMemoryCache();

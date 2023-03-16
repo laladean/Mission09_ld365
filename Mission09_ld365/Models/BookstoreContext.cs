@@ -20,6 +20,7 @@ namespace Mission09_ld365.Models
         }
 
         public  DbSet<Book> Books { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
 
     }
 }
